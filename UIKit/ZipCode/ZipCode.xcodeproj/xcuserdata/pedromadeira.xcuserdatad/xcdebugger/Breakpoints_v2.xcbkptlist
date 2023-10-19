@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CDE17C30-B132-4D63-AB52-7AA78456D751"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B83E9997-007B-4D49-95A3-339A2A5015DF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reminder/ReminderView/View/ReminderView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "314"
+            endingLineNumber = "314"
+            landmarkName = "tableView(_:commit:forRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "61E60252-1AA4-4886-A0F6-6805F4888B95"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reminder/ReminderView/View/ReminderView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "270"
+            endingLineNumber = "270"
+            landmarkName = "updateView(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "61E60252-1AA4-4886-A0F6-6805F4888B95 - d5f3a407c50560c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reminder.ReminderView.updateView(Swift.Optional&lt;Swift.Array&lt;Reminder.ReminderViewEntity&gt;&gt;) -&gt; ()"
+                  moduleName = "Reminder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/praticalTestDTI/Reminder/ReminderView/View/ReminderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "271"
+                  endingLineNumber = "271"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "61E60252-1AA4-4886-A0F6-6805F4888B95 - d5f3a407c50560e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reminder.ReminderView.updateView(Swift.Optional&lt;Swift.Array&lt;Reminder.ReminderViewEntity&gt;&gt;) -&gt; ()"
+                  moduleName = "Reminder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/praticalTestDTI/Reminder/ReminderView/View/ReminderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "270"
+                  endingLineNumber = "270"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "532580F0-6D2D-4105-85CF-120911C8A729"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reminder/ReminderView/ReminderViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "showError(menssage:buttonText:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7B3058F-5120-486F-9577-A0B469F1CC9F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reminder/ReminderView/ReminderViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "updateView(entity:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "356F9DBD-E593-4CA2-8E10-D0A49C09AA96"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reminder/ReminderView/ReminderViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "didTapCreateReminder(date:name:entity:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4900C6CD-7495-498A-9878-18D98B18083E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reminder/ReminderView/ReminderViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "updateRemindersEntity(name:date:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CEE3D940-F57B-428E-BE78-6167ECE18679"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reminder/ReminderView/ReminderViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "createReminder(stringDate:name:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CEE3D940-F57B-428E-BE78-6167ECE18679 - 2ce80368d23e38e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reminder.ReminderViewModel.createReminder(date: Swift.Optional&lt;Swift.String&gt;, name: Swift.Optional&lt;Swift.String&gt;, _: Swift.Optional&lt;Swift.Array&lt;Reminder.ReminderViewEntity&gt;&gt;) -&gt; ()"
+                  moduleName = "Reminder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/praticalTestDTI/Reminder/ReminderView/ReminderViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1612">
+               </Location>
+               <Location
+                  uuid = "CEE3D940-F57B-428E-BE78-6167ECE18679 - 2ce80368d23e38e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reminder.ReminderViewModel.createReminder(date: Swift.Optional&lt;Swift.String&gt;, name: Swift.Optional&lt;Swift.String&gt;, _: Swift.Optional&lt;Swift.Array&lt;Reminder.ReminderViewEntity&gt;&gt;) -&gt; ()"
+                  moduleName = "Reminder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/praticalTestDTI/Reminder/ReminderView/ReminderViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1608">
+               </Location>
+               <Location
+                  uuid = "CEE3D940-F57B-428E-BE78-6167ECE18679 - 2ce80368d23e38c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reminder.ReminderViewModel.createReminder(date: Swift.Optional&lt;Swift.String&gt;, name: Swift.Optional&lt;Swift.String&gt;, _: Swift.Optional&lt;Swift.Array&lt;Reminder.ReminderViewEntity&gt;&gt;) -&gt; ()"
+                  moduleName = "Reminder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/praticalTestDTI/Reminder/ReminderView/ReminderViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "1608">
+               </Location>
+               <Location
+                  uuid = "CEE3D940-F57B-428E-BE78-6167ECE18679 - 2ce80368d23e3964"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reminder.ReminderViewModel.createReminder(date: Swift.Optional&lt;Swift.String&gt;, name: Swift.Optional&lt;Swift.String&gt;, _: Swift.Optional&lt;Swift.Array&lt;Reminder.ReminderViewEntity&gt;&gt;) -&gt; ()"
+                  moduleName = "Reminder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/praticalTestDTI/Reminder/ReminderView/ReminderViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "1628">
+               </Location>
+               <Location
+                  uuid = "CEE3D940-F57B-428E-BE78-6167ECE18679 - 563f6446a4aaf1e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reminder.ReminderViewModel.createReminder(stringDate: Swift.Optional&lt;Swift.String&gt;, name: Swift.Optional&lt;Swift.String&gt;, _: Swift.Optional&lt;Swift.Array&lt;Reminder.ReminderViewEntity&gt;&gt;) -&gt; ()"
+                  moduleName = "Reminder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/praticalTestDTI/Reminder/ReminderView/ReminderViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "692">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA92C487-FA4E-480D-A445-275ED47971B1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reminder/ReminderView/ReminderViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "createReminder(stringDate:name:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DA92C487-FA4E-480D-A445-275ED47971B1 - 2ce80368d23e38c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reminder.ReminderViewModel.createReminder(date: Swift.Optional&lt;Swift.String&gt;, name: Swift.Optional&lt;Swift.String&gt;, _: Swift.Optional&lt;Swift.Array&lt;Reminder.ReminderViewEntity&gt;&gt;) -&gt; ()"
+                  moduleName = "Reminder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/praticalTestDTI/Reminder/ReminderView/ReminderViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "1924">
+               </Location>
+               <Location
+                  uuid = "DA92C487-FA4E-480D-A445-275ED47971B1 - 2ce80368d23e38c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reminder.ReminderViewModel.createReminder(date: Swift.Optional&lt;Swift.String&gt;, name: Swift.Optional&lt;Swift.String&gt;, _: Swift.Optional&lt;Swift.Array&lt;Reminder.ReminderViewEntity&gt;&gt;) -&gt; ()"
+                  moduleName = "Reminder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/praticalTestDTI/Reminder/ReminderView/ReminderViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "1928">
+               </Location>
+               <Location
+                  uuid = "DA92C487-FA4E-480D-A445-275ED47971B1 - 2ce80368d23e3926"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reminder.ReminderViewModel.createReminder(date: Swift.Optional&lt;Swift.String&gt;, name: Swift.Optional&lt;Swift.String&gt;, _: Swift.Optional&lt;Swift.Array&lt;Reminder.ReminderViewEntity&gt;&gt;) -&gt; ()"
+                  moduleName = "Reminder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/praticalTestDTI/Reminder/ReminderView/ReminderViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "1924">
+               </Location>
+               <Location
+                  uuid = "DA92C487-FA4E-480D-A445-275ED47971B1 - 2ce80368d23e3945"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reminder.ReminderViewModel.createReminder(date: Swift.Optional&lt;Swift.String&gt;, name: Swift.Optional&lt;Swift.String&gt;, _: Swift.Optional&lt;Swift.Array&lt;Reminder.ReminderViewEntity&gt;&gt;) -&gt; ()"
+                  moduleName = "Reminder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/praticalTestDTI/Reminder/ReminderView/ReminderViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "1944">
+               </Location>
+               <Location
+                  uuid = "DA92C487-FA4E-480D-A445-275ED47971B1 - 563f6446a4aaf3f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reminder.ReminderViewModel.createReminder(stringDate: Swift.Optional&lt;Swift.String&gt;, name: Swift.Optional&lt;Swift.String&gt;, _: Swift.Optional&lt;Swift.Array&lt;Reminder.ReminderViewEntity&gt;&gt;) -&gt; ()"
+                  moduleName = "Reminder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/praticalTestDTI/Reminder/ReminderView/ReminderViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "992">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73A67A83-437F-45A1-A6D9-DF9D80706274"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reminder/ReminderView/ReminderViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "validateName(name:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8AD965D9-A1F2-43DE-8EFC-74C10CB2638F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reminder/ReminderView/ReminderViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "validadeSameTaskOnDate(name:date:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2346B57F-C8C3-4BAF-8945-9665F9D29AF6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reminder/ReminderView/ReminderViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "validadeSameTaskOnDate(name:date:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3263ADA9-D27E-4E41-82E5-E99827FFADFC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reminder/ReminderView/ReminderViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "updateRemindersEntity(name:date:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E10DD3C-8512-4059-A569-EE1484523945"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reminder/ReminderView/ReminderViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "updateRemindersEntity(name:date:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A00FD3DD-E86A-4B87-9441-6712D7AC15EB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reminder/ReminderView/ReminderViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "createReminder(stringDate:name:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "88911D50-56EE-47C5-BE91-91C6E786A8C8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reminder/ReminderView/ReminderViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "stringToDate(stringDate:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F96A5CC-CE85-435D-8216-50391FE733AE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reminder/ReminderView/ReminderViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "stringToDate(stringDate:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4F96A5CC-CE85-435D-8216-50391FE733AE - c172d388de7819d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reminder.ReminderViewModel.stringToDate(stringDate: Swift.Optional&lt;Swift.String&gt;) -&gt; Swift.Optional&lt;Foundation.Date&gt;"
+                  moduleName = "Reminder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/praticalTestDTI/Reminder/ReminderView/ReminderViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "500">
+               </Location>
+               <Location
+                  uuid = "4F96A5CC-CE85-435D-8216-50391FE733AE - c172d388de7819d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reminder.ReminderViewModel.stringToDate(stringDate: Swift.Optional&lt;Swift.String&gt;) -&gt; Swift.Optional&lt;Foundation.Date&gt;"
+                  moduleName = "Reminder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/praticalTestDTI/Reminder/ReminderView/ReminderViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "828">
+               </Location>
+               <Location
+                  uuid = "4F96A5CC-CE85-435D-8216-50391FE733AE - c172d388de7819d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reminder.ReminderViewModel.stringToDate(stringDate: Swift.Optional&lt;Swift.String&gt;) -&gt; Swift.Optional&lt;Foundation.Date&gt;"
+                  moduleName = "Reminder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/praticalTestDTI/Reminder/ReminderView/ReminderViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "1196">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5E15E2B-AC77-4C25-AC0A-9F60B8DED02E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MenuScreen/MenuScreenViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "navigation(viewController:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B228B31F-D5BE-49DB-98E5-583C50F39DF5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MenuScreen/MenuScreenViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "didTapRestAPIButton()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A0842E40-7808-482F-ACDD-3F6E2E867B25"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZipCode/ZipCodeScreen/ZipCodeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "executeRxSwift(cep:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F530E78-F26D-4A72-AA14-DF3E4A543512"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RestAPI/Response/ZipCodeUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "execute(cep:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8696C7E6-69C2-4E79-B458-B8099F82A184"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZipCode/ZipCodeScreen/ZipCodeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "handleZipCode(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A12183E-49B3-42A6-A6E5-0D6D99D98533"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZipCode/ZipCodeScreen/ZipCodeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "execute(cep:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "06557A8D-73FC-4345-A063-DD9809ECD65B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZipCode/ZipCodeScreen/ZipCodeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "execute(cep:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

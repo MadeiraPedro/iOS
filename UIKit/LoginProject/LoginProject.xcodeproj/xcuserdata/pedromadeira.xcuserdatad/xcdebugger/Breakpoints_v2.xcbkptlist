@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7B4BBB19-5B08-45E8-BFC1-B43650461376"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5DB9BACB-B821-4224-8CD6-6F372824CFD9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/View/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "242"
+            endingLineNumber = "242"
+            landmarkName = "textFieldDidChangeSelection(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5DB9BACB-B821-4224-8CD6-6F372824CFD9 - e280179bd31fff01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.LoginView.textFieldDidChangeSelection(__C.UITextField) -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/Login/View/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "241"
+                  endingLineNumber = "241"
+                  offsetFromSymbolStart = "296">
+               </Location>
+               <Location
+                  uuid = "5DB9BACB-B821-4224-8CD6-6F372824CFD9 - e280179bd31fff3e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.LoginView.textFieldDidChangeSelection(__C.UITextField) -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/Login/View/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "242"
+                  endingLineNumber = "242"
+                  offsetFromSymbolStart = "160">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E40BBFDE-7449-4D3C-A620-D8C2A9AEEDB1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/View/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "244"
+            endingLineNumber = "244"
+            landmarkName = "textFieldDidChangeSelection(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E40BBFDE-7449-4D3C-A620-D8C2A9AEEDB1 - e280179bd31fff5f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.LoginView.textFieldDidChangeSelection(__C.UITextField) -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/Login/View/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "243"
+                  endingLineNumber = "243"
+                  offsetFromSymbolStart = "444">
+               </Location>
+               <Location
+                  uuid = "E40BBFDE-7449-4D3C-A620-D8C2A9AEEDB1 - e280179bd31fff7c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.LoginView.textFieldDidChangeSelection(__C.UITextField) -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/Login/View/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "244"
+                  endingLineNumber = "244"
+                  offsetFromSymbolStart = "308">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
