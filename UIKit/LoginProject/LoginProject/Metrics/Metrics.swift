@@ -15,6 +15,8 @@ public enum Metrics {
     static let small: CGFloat = 16.0
     static let medium: CGFloat = 24.0
     static let large: CGFloat = 32.0
+    static let big: CGFloat = 64.0
+    static let extra: CGFloat = 100.0
     static let tagWidth: CGFloat = 56.0
     static let buttonHeight: CGFloat = 50.0
     static let buttonWidht: CGFloat = 200.0

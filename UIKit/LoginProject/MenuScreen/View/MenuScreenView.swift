@@ -12,8 +12,8 @@ public class MenuScreenView: UIView {
     
     public enum Constants {
         static let screenTitle = "Selecione alguma das opções:"
-        static let restAPIButtonTitle = " RestAPI"
-        static let reminderButtonTitle = " Lembrete"
+        static let restAPIButtonTitle = " Botão Primario"
+        static let reminderButtonTitle = " Botão Secundário"
     }
     
     //MARK: - UI
@@ -53,26 +53,26 @@ public class MenuScreenView: UIView {
         return stackView
     }()
     
-    private lazy var reminderButton: UIButton = {
+    private lazy var firstButton: UIButton = {
         let button = UIButton()
         button.setTitle(Constants.reminderButtonTitle, for: .normal)
         button.setTitleColor(.white, for: .normal)
         button.backgroundColor = .purple
         button.setImage(UIImage(systemName: "note.text"), for: .normal)
-        button.addTarget(self, action: #selector(didTapReminderButton), for: .touchUpInside)
+        button.addTarget(self, action: #selector(didTapFirstButton), for: .touchUpInside)
         button.layer.cornerRadius = Metrics.tiny
         button.setContentHuggingPriority(.defaultHigh, for: .vertical)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
     
-    private lazy var RestAPIButton: UIButton = {
+    private lazy var secondaryButton: UIButton = {
         let button = UIButton()
         button.setTitle(Constants.restAPIButtonTitle, for: .normal)
         button.setTitleColor(.white, for: .normal)
         button.backgroundColor = .purple
         button.setImage(UIImage(systemName: "network"), for: .normal)
-        button.addTarget(self, action: #selector(didTapRestAPIButton), for: .touchUpInside)
+        button.addTarget(self, action: #selector(didTapSecondaryButton), for: .touchUpInside)
         button.layer.cornerRadius = Metrics.tiny
         button.setContentHuggingPriority(.defaultHigh, for: .vertical)
         button.translatesAutoresizingMaskIntoConstraints = false
@@ -110,8 +110,8 @@ public class MenuScreenView: UIView {
         contentView.addSubview(stackView)
         
         stackView.addArrangedSubview(screenTitle)
-        stackView.addArrangedSubview(reminderButton)
-        stackView.addArrangedSubview(RestAPIButton)
+        stackView.addArrangedSubview(firstButton)
+        stackView.addArrangedSubview(secondaryButton)
     }
     
     private func addConstraints() {
@@ -131,23 +131,23 @@ public class MenuScreenView: UIView {
             stackView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -Metrics.medium),
             stackView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -Metrics.large),
             
-            RestAPIButton.heightAnchor.constraint(equalToConstant: Metrics.buttonHeight),
-            RestAPIButton.widthAnchor.constraint(equalToConstant: Metrics.buttonWidht),
+            secondaryButton.heightAnchor.constraint(equalToConstant: Metrics.buttonHeight),
+            secondaryButton.widthAnchor.constraint(equalToConstant: Metrics.buttonWidht),
             
-            reminderButton.heightAnchor.constraint(equalToConstant: Metrics.buttonHeight),
-            reminderButton.widthAnchor.constraint(equalToConstant: Metrics.buttonWidht),
+            firstButton.heightAnchor.constraint(equalToConstant: Metrics.buttonHeight),
+            firstButton.widthAnchor.constraint(equalToConstant: Metrics.buttonWidht),
         ])
     }
 
     
     //MARK: - Button Action
     
-    @objc private func didTapRestAPIButton() {
-        delegate?.didTapRestAPIButton()
+    @objc private func didTapFirstButton() {
+        delegate?.didTapFirstButton()
     }
     
-    @objc private func didTapReminderButton() {
-        delegate?.didTapReminderButton()
+    @objc private func didTapSecondaryButton() {
+        delegate?.didTapSecondaryButton()
     }
     
     //MARK: - UpdateView

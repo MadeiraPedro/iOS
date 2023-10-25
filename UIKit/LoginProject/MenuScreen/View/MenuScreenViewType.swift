@@ -12,6 +12,6 @@ public protocol MenuScreenViewType: AnyObject {
 }
 
 public protocol MenuScreenViewDelegate: AnyObject {
-    func didTapRestAPIButton()
-    func didTapReminderButton()
+    func didTapFirstButton()
+    func didTapSecondaryButton()
 }

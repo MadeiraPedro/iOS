@@ -12,5 +12,6 @@ public protocol LoginViewType: AnyObject {
 }
 
 public protocol LoginViewDelegate: AnyObject {
-//    func didTapCreateReminder(date: String?, name: String?, entity: [ReminderViewEntity]?)
+    func didTapLogin(email: String?, password: String?)
+    func didTapCreateAccount()
 }

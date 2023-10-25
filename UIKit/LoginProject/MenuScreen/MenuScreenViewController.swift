@@ -16,6 +16,8 @@ public class MenuScreenViewController: UIViewController {
     
     private let contentView: MenuScreenView?
     
+    //MARK: - INIT
+    
     init(contentView: MenuScreenView = MenuScreenView()) {
         self.contentView = contentView
         super.init(nibName: nil, bundle: nil)
@@ -32,6 +34,8 @@ public class MenuScreenViewController: UIViewController {
         setup()
     }
     
+    //MARK: - PRIVATE FUNC
+    
     private func setup() {
         contentSetup()
     }
@@ -41,24 +45,20 @@ public class MenuScreenViewController: UIViewController {
         contentView?.delegate = self
     }
     
-    private func navigation(viewController: UIViewController) {
-        navigationController?.pushViewController(viewController, animated: true)
+    private func navigation(controller: UIViewController) {
+        navigationController?.pushViewController(controller, animated: true)
     }
 }
 
+//MARK: - EXTENSION
+
 extension MenuScreenViewController: MenuScreenViewDelegate {
-    public func didTapRestAPIButton() {
-//        let viewModel = ZipCodeViewModel()
-//        let viewController = ZipCodeViewController(viewModel: viewModel)
-//        viewModel.viewController = viewController
-//        navigation(viewController: viewController)
+    public func didTapFirstButton() {
+        
     }
     
-    public func didTapReminderButton() {
-//        let viewModel = ReminderViewModel()
-//        let viewController = ReminderViewController(viewModel: viewModel)
-//        viewModel.viewController = viewController
-//        navigation(viewController: viewController)
+    public func didTapSecondaryButton() {
+        
     }
 }
 

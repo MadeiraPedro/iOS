@@ -8,14 +8,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "5DB9BACB-B821-4224-8CD6-6F372824CFD9"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Login/View/LoginView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "242"
-            endingLineNumber = "242"
+            startingLineNumber = "236"
+            endingLineNumber = "236"
             landmarkName = "textFieldDidChangeSelection(_:)"
             landmarkType = "7">
             <Locations>
@@ -49,6 +49,21 @@
                   endingLineNumber = "242"
                   offsetFromSymbolStart = "160">
                </Location>
+               <Location
+                  uuid = "5DB9BACB-B821-4224-8CD6-6F372824CFD9 - e280179bd31ff8db"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.LoginView.textFieldDidChangeSelection(__C.UITextField) -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/Login/View/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "247"
+                  endingLineNumber = "247"
+                  offsetFromSymbolStart = "160">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -56,14 +71,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "E40BBFDE-7449-4D3C-A620-D8C2A9AEEDB1"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Login/View/LoginView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "244"
-            endingLineNumber = "244"
+            startingLineNumber = "238"
+            endingLineNumber = "238"
             landmarkName = "textFieldDidChangeSelection(_:)"
             landmarkType = "7">
             <Locations>
@@ -97,7 +112,1043 @@
                   endingLineNumber = "244"
                   offsetFromSymbolStart = "308">
                </Location>
+               <Location
+                  uuid = "E40BBFDE-7449-4D3C-A620-D8C2A9AEEDB1 - e280179bd31ff819"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.LoginView.textFieldDidChangeSelection(__C.UITextField) -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/Login/View/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "249"
+                  endingLineNumber = "249"
+                  offsetFromSymbolStart = "308">
+               </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C3DA963-4782-4CE0-9691-03C4B0CB9791"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/View/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
+            landmarkName = "didTapLoginButton()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E692589-451E-49AF-B2E8-D211EAB2E1C6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "didTapLogin(email:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0E692589-451E-49AF-B2E8-D211EAB2E1C6 - b1b18135d08b2afc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.LoginViewController.didTapCreateAccount() -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "0E692589-451E-49AF-B2E8-D211EAB2E1C6 - ad389c0b5a1523ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.LoginViewController.didTapLogin(email: Swift.Optional&lt;Swift.String&gt;, password: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A61552D0-0241-4662-9BEC-8EF0847E7BBA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "validadeLogin(email:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A61552D0-0241-4662-9BEC-8EF0847E7BBA - cb0e879877785dc2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.LoginViewModel.validadeLogin(email: Swift.Optional&lt;Swift.String&gt;, password: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "296">
+               </Location>
+               <Location
+                  uuid = "A61552D0-0241-4662-9BEC-8EF0847E7BBA - cb0e879877785d80"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.LoginViewModel.validadeLogin(email: Swift.Optional&lt;Swift.String&gt;, password: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "332">
+               </Location>
+               <Location
+                  uuid = "A61552D0-0241-4662-9BEC-8EF0847E7BBA - cb0e879877785c23"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.LoginViewModel.validadeLogin(email: Swift.Optional&lt;Swift.String&gt;, password: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "552">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B4A5CBA-2DEE-46C1-9752-853E39AB7D6C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "validadeLogin(email:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9B4A5CBA-2DEE-46C1-9752-853E39AB7D6C - cb0e879877785c0c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.LoginViewModel.validadeLogin(email: Swift.Optional&lt;Swift.String&gt;, password: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "9B4A5CBA-2DEE-46C1-9752-853E39AB7D6C - cb0e879877785dc2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.LoginViewModel.validadeLogin(email: Swift.Optional&lt;Swift.String&gt;, password: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "9B4A5CBA-2DEE-46C1-9752-853E39AB7D6C - cb0e879877785c6d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.LoginViewModel.validadeLogin(email: Swift.Optional&lt;Swift.String&gt;, password: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2D0C6E4-77DA-448D-8934-2934AA82392C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Components/CustomTextField.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "textFieldShouldReturn(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B2B1CC18-B2B1-4B15-AACA-CCC72EA20C67"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Components/CustomTextField.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
+            landmarkName = "textFieldDidChangeSelection(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "103E5AA3-A4E3-4BA1-B923-6CA740E214A0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CreateAccount/View/CreateAccountView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
+            landmarkName = "updateDefaultValues()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "103E5AA3-A4E3-4BA1-B923-6CA740E214A0 - 829eefdcc676e6be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.CreateAccountView.updateDefaultValues() -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/CreateAccount/View/CreateAccountView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "224"
+                  endingLineNumber = "224"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "103E5AA3-A4E3-4BA1-B923-6CA740E214A0 - 829eefdcc676e75b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.CreateAccountView.updateDefaultValues() -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/CreateAccount/View/CreateAccountView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "219"
+                  endingLineNumber = "219"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "103E5AA3-A4E3-4BA1-B923-6CA740E214A0 - 829eefdcc676e3a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.CreateAccountView.updateDefaultValues() -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/CreateAccount/View/CreateAccountView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "186"
+                  endingLineNumber = "186"
+                  offsetFromSymbolStart = "760">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F16ED5A-86B3-4A4E-B48D-B2FFC7912AD3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Components/CustomTextField.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "updateView(entity:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3FEB6397-031E-4D56-96A7-25CD2EB7631C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Components/CustomTextField.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "textFieldDidChangeSelection(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "91D7666E-F866-4754-8CA0-BC87F5B8EE30"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Components/CustomTextField.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "CustomTextFieldDelegate"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0EDFF37E-2A9E-43DC-B05F-07AEE66C92C0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Components/CustomTextField.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "CustomTextFieldDelegate"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BED98A2D-9618-4C58-974F-6460D1A14C3B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CreateAccount/View/CreateAccountView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
+            landmarkName = "textFieldShouldReturn(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8032E4F9-7718-444B-9CAD-966FB9B1ECE3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CreateAccount/View/CreateAccountView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "216"
+            endingLineNumber = "216"
+            landmarkName = "textFieldShouldReturn(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8032E4F9-7718-444B-9CAD-966FB9B1ECE3 - 2d2486dae4a7573c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.CreateAccountView.textFieldShouldReturn(__C.UITextField) -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/CreateAccount/View/CreateAccountView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "265"
+                  endingLineNumber = "265"
+                  offsetFromSymbolStart = "464">
+               </Location>
+               <Location
+                  uuid = "8032E4F9-7718-444B-9CAD-966FB9B1ECE3 - 2d2486dae4a76912"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.CreateAccountView.textFieldShouldReturn(__C.UITextField) -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/CreateAccount/View/CreateAccountView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "219"
+                  endingLineNumber = "219"
+                  offsetFromSymbolStart = "696">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E03284A8-1B71-4553-AA26-3B9106966E72"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "executeLogin(email:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3A7B6A7-4C03-4FD4-8AC6-DFF9522ADA48"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "executeLogin(email:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "40541156-A376-45BA-A4EC-876F7AC6EC26"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "executeLogin(email:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "493FC85A-405F-4809-B12D-6EC783393575"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CreateAccount/CreateAccountViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "executeCreateAccount(email:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "493FC85A-405F-4809-B12D-6EC783393575 - a96e014f5a479d13"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.CreateAccountViewModel.showError(menssage: Swift.String) -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/CreateAccount/CreateAccountViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "493FC85A-405F-4809-B12D-6EC783393575 - bbb536923d223641"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in LoginProject.CreateAccountViewModel.executeCreateAccount(email: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/CreateAccount/CreateAccountViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "384">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73D2EFF9-E17D-4633-80AD-EFE8BB98EC42"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CreateAccount/CreateAccountViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "executeCreateAccount(email:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "73D2EFF9-E17D-4633-80AD-EFE8BB98EC42 - a96e014f5a479d74"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.CreateAccountViewModel.showError(menssage: Swift.String) -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/CreateAccount/CreateAccountViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "73D2EFF9-E17D-4633-80AD-EFE8BB98EC42 - bbb536923d223607"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in LoginProject.CreateAccountViewModel.executeCreateAccount(email: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/CreateAccount/CreateAccountViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "212">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D0F0401E-D688-4A1B-9E4B-853FA51E4EAE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CreateAccount/CreateAccountViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "createAccount(username:email:password:confirmPassword:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D0F0401E-D688-4A1B-9E4B-853FA51E4EAE - 277284abbee99303"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.CreateAccountViewModel.createAccount(username: Swift.Optional&lt;Swift.String&gt;, email: Swift.Optional&lt;Swift.String&gt;, password: Swift.Optional&lt;Swift.String&gt;, confirmPassword: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/CreateAccount/CreateAccountViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "736">
+               </Location>
+               <Location
+                  uuid = "D0F0401E-D688-4A1B-9E4B-853FA51E4EAE - 277284abbee99303"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.CreateAccountViewModel.createAccount(username: Swift.Optional&lt;Swift.String&gt;, email: Swift.Optional&lt;Swift.String&gt;, password: Swift.Optional&lt;Swift.String&gt;, confirmPassword: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/CreateAccount/CreateAccountViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "548">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "61DF0968-71D7-457B-8966-3457FD556E52"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CreateAccount/CreateAccountViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "createAccount(username:email:password:confirmPassword:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "61DF0968-71D7-457B-8966-3457FD556E52 - 277284abbee99324"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.CreateAccountViewModel.createAccount(username: Swift.Optional&lt;Swift.String&gt;, email: Swift.Optional&lt;Swift.String&gt;, password: Swift.Optional&lt;Swift.String&gt;, confirmPassword: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/CreateAccount/CreateAccountViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "740">
+               </Location>
+               <Location
+                  uuid = "61DF0968-71D7-457B-8966-3457FD556E52 - 277284abbee99324"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.CreateAccountViewModel.createAccount(username: Swift.Optional&lt;Swift.String&gt;, email: Swift.Optional&lt;Swift.String&gt;, password: Swift.Optional&lt;Swift.String&gt;, confirmPassword: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/CreateAccount/CreateAccountViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "736">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1ED91A88-3563-4106-A2FE-EF7727F6A1FE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CreateAccount/CreateAccountViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "createAccount(username:email:password:confirmPassword:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1ED91A88-3563-4106-A2FE-EF7727F6A1FE - 277284abbee9929f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.CreateAccountViewModel.createAccount(username: Swift.Optional&lt;Swift.String&gt;, email: Swift.Optional&lt;Swift.String&gt;, password: Swift.Optional&lt;Swift.String&gt;, confirmPassword: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/CreateAccount/CreateAccountViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "844">
+               </Location>
+               <Location
+                  uuid = "1ED91A88-3563-4106-A2FE-EF7727F6A1FE - 277284abbee9929f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.CreateAccountViewModel.createAccount(username: Swift.Optional&lt;Swift.String&gt;, email: Swift.Optional&lt;Swift.String&gt;, password: Swift.Optional&lt;Swift.String&gt;, confirmPassword: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/CreateAccount/CreateAccountViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "804">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E2A8D268-2D67-4D53-A3DE-A28C51D38893"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CreateAccount/CreateAccountViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "isValidEmail(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E2A8D268-2D67-4D53-A3DE-A28C51D38893 - a475a2fcb1da3fae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.CreateAccountViewModel.isValidEmail(Swift.String) -&gt; Swift.Bool"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/CreateAccount/CreateAccountViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "448">
+               </Location>
+               <Location
+                  uuid = "E2A8D268-2D67-4D53-A3DE-A28C51D38893 - a475a2fcb1da3fae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.CreateAccountViewModel.isValidEmail(Swift.String) -&gt; Swift.Bool"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/CreateAccount/CreateAccountViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "408">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "76B51DAF-9A4B-4CC4-B43E-F64AD5663BAA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CreateAccount/CreateAccountViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "isValidEmail(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "26B44413-154A-4C01-A70C-27212E992B62"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CreateAccount/CreateAccountViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "isValidPassword(password:confirmPassword:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "26B44413-154A-4C01-A70C-27212E992B62 - 7e732b5e5aa11d48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.CreateAccountViewModel.isValidPassword(password: Swift.String, confirmPassword: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/CreateAccount/CreateAccountViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  uuid = "26B44413-154A-4C01-A70C-27212E992B62 - 7e732b5e5aa11d48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.CreateAccountViewModel.isValidPassword(password: Swift.String, confirmPassword: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/CreateAccount/CreateAccountViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "396">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EB5056D1-5627-49B0-ACE8-C0AB4EF03A2F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CreateAccount/CreateAccountViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "isValidPassword(password:confirmPassword:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EB5056D1-5627-49B0-ACE8-C0AB4EF03A2F - bbb536923d223759"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in LoginProject.CreateAccountViewModel.executeCreateAccount(email: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/CreateAccount/CreateAccountViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "EB5056D1-5627-49B0-ACE8-C0AB4EF03A2F - 7e732b5e5aa11e40"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.CreateAccountViewModel.isValidPassword(password: Swift.String, confirmPassword: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/CreateAccount/CreateAccountViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "328">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "738BF3F6-FE9A-4544-AB30-FD7A63092E94"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "validadeLogin(email:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "267A47F5-516B-403F-9B87-3CD1FC13023E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "isValidEmail(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05CE0525-2406-40AA-A5E9-072D63206589"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "isValidEmail(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7DDCB9F-5FB6-4645-90BB-BAF2B0B12FA9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "isValidPassword(password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E7DDCB9F-5FB6-4645-90BB-BAF2B0B12FA9 - 275463c4493d4be4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.LoginViewModel.isValidPassword(password: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "E7DDCB9F-5FB6-4645-90BB-BAF2B0B12FA9 - 275463c4493d4be4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.LoginViewModel.isValidPassword(password: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "128">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53DA53F8-B3BC-4C8D-949C-8B0C7333632C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "isValidPassword(password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "53DA53F8-B3BC-4C8D-949C-8B0C7333632C - 275463c4493d4b01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.LoginViewModel.isValidPassword(password: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "53DA53F8-B3BC-4C8D-949C-8B0C7333632C - 275463c4493d4b01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.LoginViewModel.isValidPassword(password: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromadeira/Developer/iOS/UIKit/LoginProject/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F1F2BBA7-CFBD-495C-AC3B-FDFDB112ACC0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "executeLogin(email:password:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

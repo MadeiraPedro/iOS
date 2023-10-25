@@ -1,8 +1,8 @@
 //
-//  LoginViewModel.swift
+//  CreateAccountViewModel.swift
 //  LoginProject
 //
-//  Created by Pedro Madeira on 18/10/23.
+//  Created by Pedro Madeira on 24/10/23.
 //
 
 import Foundation
@@ -10,7 +10,7 @@ import UIKit
 import Firebase
 
 
-public class LoginViewModel {
+public class CreateAccountViewModel {
     
     private enum Metrics {
         static let minimumPasswordSize = 8
@@ -20,25 +20,28 @@ public class LoginViewModel {
         static let alertButtonText = "Entendi"
         static let alertMenssage = "Ops, Tivemos um erro! \nVerifique se todos os campos foram preenchidos corretamente"
         static let alertInvalidPasswordLength = "Ops, Tivemos um erro! \nA senha inserida deve conter pelo menos 8 caracteres."
+        static let alertInvalidPasswords = "Ops, Tivemos um erro! \nVerifique se as senhas inseridas são iguais."
         static let alertInvalidEmail = "Ops, Tivemos um erro! \nVerifique o campo e-mail foi digitado corretamente"
 
         static let emailRules = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
     }
     
-    public weak var viewController: LoginViewController?
+    public weak var viewController: CreateAccountViewController?
     private var auth: Auth? = .auth()
           
-    //MARK: - VALIDATION
     
-    public func validadeLogin(email: String?, password: String?) {
-        guard let email, let password else {
+    public func createAccount(username: String?, email: String?, password: String?, confirmPassword: String?) {
+        guard let username, let email, let password, let confirmPassword else {
             showError(menssage: Constants.alertMenssage)
             return
         }
-        if isValidEmail(email) && isValidPassword(password: password) {
-            executeLogin(email: email, password: password)
+        
+        if isValidEmail(email) && isValidPassword(password: password, confirmPassword: confirmPassword) {
+            executeCreateAccount(email: email, password: password)
         }
     }
+    
+    //MARK: - VALIDATION
     
     private func isValidEmail(_ email: String) -> Bool {
         let emailPred = NSPredicate(format:"SELF MATCHES %@", Constants.emailRules)
@@ -50,30 +53,29 @@ public class LoginViewModel {
         return emailPred.evaluate(with: email)
     }
     
-    private func isValidPassword(password: String) -> Bool {
+    private func isValidPassword(password: String, confirmPassword: String) -> Bool {
         guard password.count >= Metrics.minimumPasswordSize else {
             showError(menssage: Constants.alertInvalidPasswordLength)
             return false
         }
-        return true
+        
+        if !password.elementsEqual(confirmPassword) {
+            showError(menssage: Constants.alertInvalidPasswords)
+        }
+        
+        return password.elementsEqual(confirmPassword)
     }
     
     //MARK: - EXECUTE AUTH
     
-    private func executeLogin(email: String, password: String) { //TODO: tratar erro quando a conta ja existe
-        auth?.signIn(withEmail: email, password: password, completion: { (user, error) in
-            
+    private func executeCreateAccount(email: String, password: String) { //TODO: tratar erro quando a conta ja existe
+        auth?.createUser(withEmail: email, password: password, completion: { (response, error) in
             if error != nil {
-                print("LOGIN ERROR")
+                print("Failed to create account")
             } else {
-                if user == nil {
-                    print("Usuario invalido")
-                } else {
-                    print("LOGIN SUCCESSFULLY")
-                    self.viewController?.goToMenuScreenView()
-                }
+                print("ACCOUNT CREATED SUCCESSFULLY")
+                self.viewController?.goToMenuScreenView()
             }
-            
         })
     }
     

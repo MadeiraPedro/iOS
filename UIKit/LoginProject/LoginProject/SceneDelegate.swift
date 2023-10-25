@@ -80,7 +80,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: windowScene)
-        let controller = MenuScreenViewController() //colocar um timer e depois ir pra tela de login (viewController)
+        let controller = MenuScreenViewController() //TODO: colocar um timer e depois ir pra tela de login (viewController)
         let navigationController = UINavigationController(rootViewController: controller)
         window.rootViewController = navigationController
         window.makeKeyAndVisible()

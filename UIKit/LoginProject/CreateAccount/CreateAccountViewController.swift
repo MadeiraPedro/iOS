@@ -1,26 +1,26 @@
 //
-//  LoginViewController.swift
+//  CreateAccountViewController.swift
 //  LoginProject
 //
-//  Created by Pedro Madeira on 18/10/23.
+//  Created by Pedro Madeira on 24/10/23.
 //
 
 import Foundation
 import UIKit
 
-public class LoginViewController: UIViewController {
+public final class CreateAccountViewController: UIViewController {
     
     public enum Constants {
-        static let controllerTitle = "Login"
+        static let controllerTitle = "Nova conta"
     }
     
-    private let contentView: LoginView?
-    private let viewModel: LoginViewModel?
-
+    private let contentView: CreateAccountView?
+    private let viewModel: CreateAccountViewModel?
+    
     //MARK: - INIT
     
-    init(contentView: LoginView = LoginView(),
-         viewModel: LoginViewModel) {
+    init(contentView: CreateAccountView = CreateAccountView(),
+         viewModel: CreateAccountViewModel) {
         self.contentView = contentView
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
@@ -31,11 +31,10 @@ public class LoginViewController: UIViewController {
     }
     
     public override func viewWillAppear(_ animated: Bool) {
-        //fazer um login ou shimmer
+        //TODO: fazer um login ou shimmer
     }
     
     public override func viewDidLoad() {
-        self.navigationItem.setHidesBackButton(true, animated: true)
         super.viewDidLoad()
         title = Constants.controllerTitle
         setup()
@@ -76,16 +75,9 @@ public class LoginViewController: UIViewController {
 
 //MARK: - EXTENSION
 
-extension LoginViewController: LoginViewDelegate {
-    public func didTapLogin(email: String?, password: String?) {
-        viewModel?.validadeLogin(email: email, password: password)
-    }
-    
-    public func didTapCreateAccount() {
-        let viewModel = CreateAccountViewModel()
-        let viewController = CreateAccountViewController(viewModel: viewModel)
-        viewModel.viewController = viewController
-        navigation(controller: viewController)
+extension CreateAccountViewController: CreateAccountViewDelegate {
+    public func didTapCreateAccount(_ username: String?, _ email: String?, _ password: String?, _ confirmPassword: String?) {
+        viewModel?.createAccount(username: username, email: email, password: password, confirmPassword: confirmPassword)
     }
 }
 
