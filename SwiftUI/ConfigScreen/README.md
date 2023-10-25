@@ -1,1 +1,1 @@
-# Recriação da Tela de Configurações
+# Recriação da Tela de Configurações em SwiftUI
